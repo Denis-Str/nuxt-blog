@@ -1,0 +1,21 @@
+.post {
+  margin-bottom: 1.5rem;
+}
+
+.posts__img {
+  width: 100%;
+  height: auto;
+}
+
+.posts__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.posts__footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,44 @@
+html {
+  font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 14px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+}
+
+.el-container {
+  width: 100%;
+  height: 100%;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.empty-layout {
+  width: 100%;
+  height: 100%;
+}
+
+.empty-layout__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

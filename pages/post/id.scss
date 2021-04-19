@@ -1,0 +1,35 @@
+.article-component {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.article__header {
+  margin-bottom: 1.5rem;
+}
+
+.article__header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.article__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.article__content-img {
+  width: 100%;
+  height: auto;
+}
+
+.article__content {
+  margin-bottom: 2rem;
+}
+
+.comments__empty {
+  text-align: center;
+}

@@ -1,0 +1,15 @@
+.comment-component {
+  margin-bottom: 1rem;
+}
+
+.comment__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 0.8rem;
+}
+
+.comment__content {
+  white-space: pre-line;
+}
